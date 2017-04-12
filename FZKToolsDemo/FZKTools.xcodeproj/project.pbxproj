@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1F350F1E83952800A5118D /* NSDate+FZKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34D81E83952800A5118D /* NSDate+FZKExtension.m */; };
+		0D1F35101E83952800A5118D /* NSDictionary+FZKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34DA1E83952800A5118D /* NSDictionary+FZKExtension.m */; };
+		0D1F35111E83952800A5118D /* NSIndexPath+FZKOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34DC1E83952800A5118D /* NSIndexPath+FZKOffset.m */; };
+		0D1F35121E83952800A5118D /* NSString+FZKEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34DE1E83952800A5118D /* NSString+FZKEncode.m */; };
+		0D1F35131E83952800A5118D /* NSString+FZKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34E01E83952800A5118D /* NSString+FZKUtils.m */; };
+		0D1F35141E83952800A5118D /* UIApplication+FZKAPNs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34E41E83952800A5118D /* UIApplication+FZKAPNs.m */; };
+		0D1F35151E83952800A5118D /* UIBarButtonItem+FZKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34E61E83952800A5118D /* UIBarButtonItem+FZKBadge.m */; };
+		0D1F35161E83952800A5118D /* UIButton+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34E81E83952800A5118D /* UIButton+FZKUntil.m */; };
+		0D1F35171E83952800A5118D /* UIColor+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34EA1E83952800A5118D /* UIColor+FZKUntil.m */; };
+		0D1F35181E83952800A5118D /* UIControl+FZKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34EC1E83952800A5118D /* UIControl+FZKUtil.m */; };
+		0D1F35191E83952800A5118D /* UIDevice+FZKHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34EE1E83952800A5118D /* UIDevice+FZKHardware.m */; };
+		0D1F351A1E83952800A5118D /* UIImage+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34F01E83952800A5118D /* UIImage+FZKUntil.m */; };
+		0D1F351B1E83952800A5118D /* UIImageView+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34F21E83952800A5118D /* UIImageView+FZKUntil.m */; };
+		0D1F351C1E83952800A5118D /* UINavigationController+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34F41E83952800A5118D /* UINavigationController+FZKUntil.m */; };
+		0D1F351D1E83952800A5118D /* UITextField+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34F61E83952800A5118D /* UITextField+FZKUntil.m */; };
+		0D1F351E1E83952800A5118D /* UITextView+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34F81E83952800A5118D /* UITextView+FZKUntil.m */; };
+		0D1F351F1E83952800A5118D /* UIView+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F34FA1E83952800A5118D /* UIView+FZKUntil.m */; };
+		0D1F35201E83952800A5118D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F35051E83952800A5118D /* README.md */; };
+		0D1F35211E83952800A5118D /* FZKConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F35091E83952800A5118D /* FZKConvert.m */; };
+		0D1F35221E83952800A5118D /* FZKPublicMothod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F350B1E83952800A5118D /* FZKPublicMothod.m */; };
+		0D1F35231E83952800A5118D /* FZKSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F350D1E83952800A5118D /* FZKSandbox.m */; };
+		0D1F35271E83962E00A5118D /* FZKNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F35261E83962E00A5118D /* FZKNetWorking.m */; };
+		0D4117FE1E825E00002FC1F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4117FD1E825E00002FC1F9 /* main.m */; };
+		0D4118011E825E00002FC1F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4118001E825E00002FC1F9 /* AppDelegate.m */; };
+		0D4118041E825E00002FC1F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4118031E825E00002FC1F9 /* ViewController.m */; };
+		0D4118071E825E00002FC1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4118051E825E00002FC1F9 /* Main.storyboard */; };
+		0D4118091E825E00002FC1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4118081E825E00002FC1F9 /* Assets.xcassets */; };
+		0D41180C1E825E00002FC1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41180A1E825E00002FC1F9 /* LaunchScreen.storyboard */; };
+		0D760F731E9B137A00AF7996 /* UIWindow+FZKUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D760F721E9B137A00AF7996 /* UIWindow+FZKUntil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D1F34D61E83952800A5118D /* FZKFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKFoundation.h; sourceTree = "<group>"; };
+		0D1F34D71E83952800A5118D /* NSDate+FZKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FZKExtension.h"; sourceTree = "<group>"; };
+		0D1F34D81E83952800A5118D /* NSDate+FZKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FZKExtension.m"; sourceTree = "<group>"; };
+		0D1F34D91E83952800A5118D /* NSDictionary+FZKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FZKExtension.h"; sourceTree = "<group>"; };
+		0D1F34DA1E83952800A5118D /* NSDictionary+FZKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FZKExtension.m"; sourceTree = "<group>"; };
+		0D1F34DB1E83952800A5118D /* NSIndexPath+FZKOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+FZKOffset.h"; sourceTree = "<group>"; };
+		0D1F34DC1E83952800A5118D /* NSIndexPath+FZKOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+FZKOffset.m"; sourceTree = "<group>"; };
+		0D1F34DD1E83952800A5118D /* NSString+FZKEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FZKEncode.h"; sourceTree = "<group>"; };
+		0D1F34DE1E83952800A5118D /* NSString+FZKEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FZKEncode.m"; sourceTree = "<group>"; };
+		0D1F34DF1E83952800A5118D /* NSString+FZKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FZKUtils.h"; sourceTree = "<group>"; };
+		0D1F34E01E83952800A5118D /* NSString+FZKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FZKUtils.m"; sourceTree = "<group>"; };
+		0D1F34E21E83952800A5118D /* FZKUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKUIKit.h; sourceTree = "<group>"; };
+		0D1F34E31E83952800A5118D /* UIApplication+FZKAPNs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FZKAPNs.h"; sourceTree = "<group>"; };
+		0D1F34E41E83952800A5118D /* UIApplication+FZKAPNs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FZKAPNs.m"; sourceTree = "<group>"; };
+		0D1F34E51E83952800A5118D /* UIBarButtonItem+FZKBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FZKBadge.h"; sourceTree = "<group>"; };
+		0D1F34E61E83952800A5118D /* UIBarButtonItem+FZKBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FZKBadge.m"; sourceTree = "<group>"; };
+		0D1F34E71E83952800A5118D /* UIButton+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34E81E83952800A5118D /* UIButton+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34E91E83952800A5118D /* UIColor+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34EA1E83952800A5118D /* UIColor+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34EB1E83952800A5118D /* UIControl+FZKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+FZKUtil.h"; sourceTree = "<group>"; };
+		0D1F34EC1E83952800A5118D /* UIControl+FZKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+FZKUtil.m"; sourceTree = "<group>"; };
+		0D1F34ED1E83952800A5118D /* UIDevice+FZKHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FZKHardware.h"; sourceTree = "<group>"; };
+		0D1F34EE1E83952800A5118D /* UIDevice+FZKHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FZKHardware.m"; sourceTree = "<group>"; };
+		0D1F34EF1E83952800A5118D /* UIImage+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34F01E83952800A5118D /* UIImage+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34F11E83952800A5118D /* UIImageView+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34F21E83952800A5118D /* UIImageView+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34F31E83952800A5118D /* UINavigationController+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34F41E83952800A5118D /* UINavigationController+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34F51E83952800A5118D /* UITextField+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34F61E83952800A5118D /* UITextField+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34F71E83952800A5118D /* UITextView+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34F81E83952800A5118D /* UITextView+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34F91E83952800A5118D /* UIView+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FZKUntil.h"; sourceTree = "<group>"; };
+		0D1F34FA1E83952800A5118D /* UIView+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FZKUntil.m"; sourceTree = "<group>"; };
+		0D1F34FB1E83952800A5118D /* FZKTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKTools.h; sourceTree = "<group>"; };
+		0D1F34FD1E83952800A5118D /* FZKAPPMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKAPPMacro.h; sourceTree = "<group>"; };
+		0D1F34FE1E83952800A5118D /* FZKColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKColorMacro.h; sourceTree = "<group>"; };
+		0D1F34FF1E83952800A5118D /* FZKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKMacro.h; sourceTree = "<group>"; };
+		0D1F35001E83952800A5118D /* FZKNotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKNotificationMacro.h; sourceTree = "<group>"; };
+		0D1F35011E83952800A5118D /* FZKRequestMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKRequestMacro.h; sourceTree = "<group>"; };
+		0D1F35021E83952800A5118D /* FZKSQLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKSQLMacro.h; sourceTree = "<group>"; };
+		0D1F35031E83952800A5118D /* FZKUtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKUtilsMacro.h; sourceTree = "<group>"; };
+		0D1F35051E83952800A5118D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D1F35071E83952800A5118D /* FZKAdjustScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKAdjustScreen.h; sourceTree = "<group>"; };
+		0D1F35081E83952800A5118D /* FZKConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKConvert.h; sourceTree = "<group>"; };
+		0D1F35091E83952800A5118D /* FZKConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKConvert.m; sourceTree = "<group>"; };
+		0D1F350A1E83952800A5118D /* FZKPublicMothod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKPublicMothod.h; sourceTree = "<group>"; };
+		0D1F350B1E83952800A5118D /* FZKPublicMothod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKPublicMothod.m; sourceTree = "<group>"; };
+		0D1F350C1E83952800A5118D /* FZKSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKSandbox.h; sourceTree = "<group>"; };
+		0D1F350D1E83952800A5118D /* FZKSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKSandbox.m; sourceTree = "<group>"; };
+		0D1F350E1E83952800A5118D /* FZKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKUtilities.h; sourceTree = "<group>"; };
+		0D1F35251E83962E00A5118D /* FZKNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKNetWorking.h; sourceTree = "<group>"; };
+		0D1F35261E83962E00A5118D /* FZKNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKNetWorking.m; sourceTree = "<group>"; };
+		0D4117F91E825E00002FC1F9 /* FZKTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZKTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4117FD1E825E00002FC1F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D4117FF1E825E00002FC1F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D4118001E825E00002FC1F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D4118021E825E00002FC1F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D4118031E825E00002FC1F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D4118061E825E00002FC1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D4118081E825E00002FC1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D41180B1E825E00002FC1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D41180D1E825E00002FC1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D760F711E9B137A00AF7996 /* UIWindow+FZKUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FZKUntil.h"; sourceTree = "<group>"; };
+		0D760F721E9B137A00AF7996 /* UIWindow+FZKUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FZKUntil.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D4117F61E825E00002FC1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1F34D31E83952800A5118D /* FZKTools */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F35241E8395FB00A5118D /* Networking */,
+				0D1F34D41E83952800A5118D /* Category */,
+				0D1F34FB1E83952800A5118D /* FZKTools.h */,
+				0D1F34FC1E83952800A5118D /* Macro */,
+				0D1F35041E83952800A5118D /* Notification */,
+				0D1F35051E83952800A5118D /* README.md */,
+				0D1F35061E83952800A5118D /* Utilities */,
+			);
+			path = FZKTools;
+			sourceTree = "<group>";
+		};
+		0D1F34D41E83952800A5118D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F34D51E83952800A5118D /* Foundation */,
+				0D1F34E11E83952800A5118D /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0D1F34D51E83952800A5118D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F34D61E83952800A5118D /* FZKFoundation.h */,
+				0D1F34D71E83952800A5118D /* NSDate+FZKExtension.h */,
+				0D1F34D81E83952800A5118D /* NSDate+FZKExtension.m */,
+				0D1F34D91E83952800A5118D /* NSDictionary+FZKExtension.h */,
+				0D1F34DA1E83952800A5118D /* NSDictionary+FZKExtension.m */,
+				0D1F34DB1E83952800A5118D /* NSIndexPath+FZKOffset.h */,
+				0D1F34DC1E83952800A5118D /* NSIndexPath+FZKOffset.m */,
+				0D1F34DD1E83952800A5118D /* NSString+FZKEncode.h */,
+				0D1F34DE1E83952800A5118D /* NSString+FZKEncode.m */,
+				0D1F34DF1E83952800A5118D /* NSString+FZKUtils.h */,
+				0D1F34E01E83952800A5118D /* NSString+FZKUtils.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		0D1F34E11E83952800A5118D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F34E21E83952800A5118D /* FZKUIKit.h */,
+				0D1F34E31E83952800A5118D /* UIApplication+FZKAPNs.h */,
+				0D1F34E41E83952800A5118D /* UIApplication+FZKAPNs.m */,
+				0D1F34E51E83952800A5118D /* UIBarButtonItem+FZKBadge.h */,
+				0D1F34E61E83952800A5118D /* UIBarButtonItem+FZKBadge.m */,
+				0D1F34E71E83952800A5118D /* UIButton+FZKUntil.h */,
+				0D1F34E81E83952800A5118D /* UIButton+FZKUntil.m */,
+				0D1F34E91E83952800A5118D /* UIColor+FZKUntil.h */,
+				0D1F34EA1E83952800A5118D /* UIColor+FZKUntil.m */,
+				0D1F34EB1E83952800A5118D /* UIControl+FZKUtil.h */,
+				0D1F34EC1E83952800A5118D /* UIControl+FZKUtil.m */,
+				0D1F34ED1E83952800A5118D /* UIDevice+FZKHardware.h */,
+				0D1F34EE1E83952800A5118D /* UIDevice+FZKHardware.m */,
+				0D1F34EF1E83952800A5118D /* UIImage+FZKUntil.h */,
+				0D1F34F01E83952800A5118D /* UIImage+FZKUntil.m */,
+				0D1F34F11E83952800A5118D /* UIImageView+FZKUntil.h */,
+				0D1F34F21E83952800A5118D /* UIImageView+FZKUntil.m */,
+				0D1F34F31E83952800A5118D /* UINavigationController+FZKUntil.h */,
+				0D1F34F41E83952800A5118D /* UINavigationController+FZKUntil.m */,
+				0D1F34F51E83952800A5118D /* UITextField+FZKUntil.h */,
+				0D1F34F61E83952800A5118D /* UITextField+FZKUntil.m */,
+				0D1F34F71E83952800A5118D /* UITextView+FZKUntil.h */,
+				0D1F34F81E83952800A5118D /* UITextView+FZKUntil.m */,
+				0D1F34F91E83952800A5118D /* UIView+FZKUntil.h */,
+				0D1F34FA1E83952800A5118D /* UIView+FZKUntil.m */,
+				0D760F711E9B137A00AF7996 /* UIWindow+FZKUntil.h */,
+				0D760F721E9B137A00AF7996 /* UIWindow+FZKUntil.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0D1F34FC1E83952800A5118D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F34FD1E83952800A5118D /* FZKAPPMacro.h */,
+				0D1F34FE1E83952800A5118D /* FZKColorMacro.h */,
+				0D1F34FF1E83952800A5118D /* FZKMacro.h */,
+				0D1F35001E83952800A5118D /* FZKNotificationMacro.h */,
+				0D1F35011E83952800A5118D /* FZKRequestMacro.h */,
+				0D1F35021E83952800A5118D /* FZKSQLMacro.h */,
+				0D1F35031E83952800A5118D /* FZKUtilsMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		0D1F35041E83952800A5118D /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		0D1F35061E83952800A5118D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F35071E83952800A5118D /* FZKAdjustScreen.h */,
+				0D1F35081E83952800A5118D /* FZKConvert.h */,
+				0D1F35091E83952800A5118D /* FZKConvert.m */,
+				0D1F350A1E83952800A5118D /* FZKPublicMothod.h */,
+				0D1F350B1E83952800A5118D /* FZKPublicMothod.m */,
+				0D1F350C1E83952800A5118D /* FZKSandbox.h */,
+				0D1F350D1E83952800A5118D /* FZKSandbox.m */,
+				0D1F350E1E83952800A5118D /* FZKUtilities.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0D1F35241E8395FB00A5118D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F35251E83962E00A5118D /* FZKNetWorking.h */,
+				0D1F35261E83962E00A5118D /* FZKNetWorking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0D4117F01E825E00002FC1F9 = {
+			isa = PBXGroup;
+			children = (
+				0D4117FB1E825E00002FC1F9 /* FZKTools */,
+				0D4117FA1E825E00002FC1F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D4117FA1E825E00002FC1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4117F91E825E00002FC1F9 /* FZKTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4117FB1E825E00002FC1F9 /* FZKTools */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F34D31E83952800A5118D /* FZKTools */,
+				0D4117FF1E825E00002FC1F9 /* AppDelegate.h */,
+				0D4118001E825E00002FC1F9 /* AppDelegate.m */,
+				0D4118021E825E00002FC1F9 /* ViewController.h */,
+				0D4118031E825E00002FC1F9 /* ViewController.m */,
+				0D4118051E825E00002FC1F9 /* Main.storyboard */,
+				0D4118081E825E00002FC1F9 /* Assets.xcassets */,
+				0D41180A1E825E00002FC1F9 /* LaunchScreen.storyboard */,
+				0D41180D1E825E00002FC1F9 /* Info.plist */,
+				0D4117FC1E825E00002FC1F9 /* Supporting Files */,
+			);
+			path = FZKTools;
+			sourceTree = "<group>";
+		};
+		0D4117FC1E825E00002FC1F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D4117FD1E825E00002FC1F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D4117F81E825E00002FC1F9 /* FZKTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4118101E825E00002FC1F9 /* Build configuration list for PBXNativeTarget "FZKTools" */;
+			buildPhases = (
+				0D4117F51E825E00002FC1F9 /* Sources */,
+				0D4117F61E825E00002FC1F9 /* Frameworks */,
+				0D4117F71E825E00002FC1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZKTools;
+			productName = FZKTools;
+			productReference = 0D4117F91E825E00002FC1F9 /* FZKTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D4117F11E825E00002FC1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FZK;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chinapke;
+				TargetAttributes = {
+					0D4117F81E825E00002FC1F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B3LET74VX6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D4117F41E825E00002FC1F9 /* Build configuration list for PBXProject "FZKTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D4117F01E825E00002FC1F9;
+			productRefGroup = 0D4117FA1E825E00002FC1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4117F81E825E00002FC1F9 /* FZKTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D4117F71E825E00002FC1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41180C1E825E00002FC1F9 /* LaunchScreen.storyboard in Resources */,
+				0D4118091E825E00002FC1F9 /* Assets.xcassets in Resources */,
+				0D4118071E825E00002FC1F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D4117F51E825E00002FC1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1F351D1E83952800A5118D /* UITextField+FZKUntil.m in Sources */,
+				0D1F35221E83952800A5118D /* FZKPublicMothod.m in Sources */,
+				0D1F351A1E83952800A5118D /* UIImage+FZKUntil.m in Sources */,
+				0D1F351E1E83952800A5118D /* UITextView+FZKUntil.m in Sources */,
+				0D1F35201E83952800A5118D /* README.md in Sources */,
+				0D1F35171E83952800A5118D /* UIColor+FZKUntil.m in Sources */,
+				0D4118041E825E00002FC1F9 /* ViewController.m in Sources */,
+				0D4118011E825E00002FC1F9 /* AppDelegate.m in Sources */,
+				0D1F35141E83952800A5118D /* UIApplication+FZKAPNs.m in Sources */,
+				0D1F35231E83952800A5118D /* FZKSandbox.m in Sources */,
+				0D1F350F1E83952800A5118D /* NSDate+FZKExtension.m in Sources */,
+				0D1F35191E83952800A5118D /* UIDevice+FZKHardware.m in Sources */,
+				0D760F731E9B137A00AF7996 /* UIWindow+FZKUntil.m in Sources */,
+				0D1F35111E83952800A5118D /* NSIndexPath+FZKOffset.m in Sources */,
+				0D1F35211E83952800A5118D /* FZKConvert.m in Sources */,
+				0D1F35161E83952800A5118D /* UIButton+FZKUntil.m in Sources */,
+				0D4117FE1E825E00002FC1F9 /* main.m in Sources */,
+				0D1F35181E83952800A5118D /* UIControl+FZKUtil.m in Sources */,
+				0D1F35131E83952800A5118D /* NSString+FZKUtils.m in Sources */,
+				0D1F351C1E83952800A5118D /* UINavigationController+FZKUntil.m in Sources */,
+				0D1F35271E83962E00A5118D /* FZKNetWorking.m in Sources */,
+				0D1F351F1E83952800A5118D /* UIView+FZKUntil.m in Sources */,
+				0D1F35121E83952800A5118D /* NSString+FZKEncode.m in Sources */,
+				0D1F35151E83952800A5118D /* UIBarButtonItem+FZKBadge.m in Sources */,
+				0D1F35101E83952800A5118D /* NSDictionary+FZKExtension.m in Sources */,
+				0D1F351B1E83952800A5118D /* UIImageView+FZKUntil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D4118051E825E00002FC1F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4118061E825E00002FC1F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D41180A1E825E00002FC1F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D41180B1E825E00002FC1F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D41180E1E825E00002FC1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D41180F1E825E00002FC1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D4118111E825E00002FC1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				INFOPLIST_FILE = FZKTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.FZKTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D4118121E825E00002FC1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				INFOPLIST_FILE = FZKTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.FZKTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4117F41E825E00002FC1F9 /* Build configuration list for PBXProject "FZKTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41180E1E825E00002FC1F9 /* Debug */,
+				0D41180F1E825E00002FC1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4118101E825E00002FC1F9 /* Build configuration list for PBXNativeTarget "FZKTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4118111E825E00002FC1F9 /* Debug */,
+				0D4118121E825E00002FC1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D4117F11E825E00002FC1F9 /* Project object */;
+}
